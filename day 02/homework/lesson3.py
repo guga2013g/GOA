@@ -19,24 +19,19 @@ print("goa is the best")
 
 number5=4
 number4=5
-print(number5+number4)
+print(number5  + number4)
 
-number9=5
-number5=9
-print(number9-number4)
+number9=6
+number6=9
+print(number9-number6)
 
+number7=6
+number6=7
+print(number7*number6)
 
-number6=5
-number5=6
-print(number6*number5)
-number8=2
-number2=8
-print(number8%number2)
-
-
-
-
-
+number9=3
+number3=9
+print(number9%number3)
 
 
 

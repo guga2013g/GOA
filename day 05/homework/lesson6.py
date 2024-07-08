@@ -1,11 +1,11 @@
 num1 = 10
 num2 = 20
 total = num1 + num2
-print(total)
+print(total) 
 
 greeting = "Hello"
 age = 25
-message = greeting + ", I am " + age + " years old."
+message = greeting + ", I am " + str(age) + " years old."
 print(message)
 
 
