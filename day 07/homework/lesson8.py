@@ -5,8 +5,9 @@
 
 
 
-name=" davit "
-surname=" grdzelishvili "
+name=" enter_name"
+
+surname=" enter_surname "
 print(name+surname)
 
 
