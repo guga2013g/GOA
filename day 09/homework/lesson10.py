@@ -26,6 +26,3 @@ name=input("კოღო")
 bites=5
 hit=3
 print(bites)
-
-
-
