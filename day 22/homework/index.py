@@ -1,4 +1,4 @@
-#                       0            1
+               
 favourit_fruit_list=["marwyvi" , "banani"]
 print(favourit_fruit_list[0])
 print(favourit_fruit_list[1])
