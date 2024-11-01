@@ -1,23 +1,39 @@
-user_food = []
-for _ in range(10):
-    food = input("რა გსურთ გასტუმრებლად? ")
-    user_food.append(food)
+def say_hello():
+    print("გამარჯობა!")
 
-print("თქვენი საჭმელი:", user_food)
-movies = ["ფილმი 1", "ფილმი 2", "ფილმი 3"]
 
-reversed_movies_1 = movies[::-1]
+def sum_two_numbers(a, b):
+    return a + b
 
-reversed_movies_2 = []
-for movie in movies:
-    reversed_movies_2.insert(0, movie)
+def calculate_age(birth_year):
+    current_year = 2024  
+    return current_year - birth_year
 
-print("პირველი ატრიალება:", reversed_movies_1)
-print("მეორე ატრიალება:", reversed_movies_2)
-name = "გიორგი დავითაშვილი"
-none_name = ""
-for letter in name:
-    none_name += letter + "გოა"
 
-print("შედეგი:", none_name)
+def multiply(x, y):
+    return x * y
 
+
+def repeat_twice(word):
+    return word * 2
+
+
+if __name__ == "__main__":
+
+    say_hello()
+
+
+    result_sum = sum_two_numbers(5, 7)
+    print(f"ჯამი: {result_sum}")
+
+
+    age = calculate_age(1990)
+    print(f"თქვენი ასაკი: {age} წლის.")
+
+
+    result_multiply = multiply(3, 4)
+    print(f"ნამრავლი: {result_multiply}")
+
+  
+    repeated_word = repeat_twice("გამარჯობა")
+    print(f"გამეორებული სიტყვა: {repeated_word}")
