@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: lawngreen;
+}
+h1{
+color: brown;
+
+}
+body{
+    display: flex;
+    background-color: blue;
+}
+
